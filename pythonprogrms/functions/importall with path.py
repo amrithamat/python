@@ -1,4 +1,4 @@
-import new.functions.matoperation as fun
+import pythonprogrms.functions.matoperation as fun
 
 res=fun.add(100,200)
 print(res)

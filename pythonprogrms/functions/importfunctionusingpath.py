@@ -6,10 +6,10 @@
 #need to import matoperation.py module
 
 
-import new.functions.matoperation
+import pythonprogrms.functions.matoperation
 
-res=new.functions.matoperation.add(100,200)
+res=pythonprogrms.functions.matoperation.add(100, 200)
 print(res)
 
-sub=new.functions.matoperation.sub(200,100)
+sub=pythonprogrms.functions.matoperation.sub(200, 100)
 print(sub)
