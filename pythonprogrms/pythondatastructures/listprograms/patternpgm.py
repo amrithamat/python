@@ -10,3 +10,7 @@ for num in lst:
         out.append(num-1)
 
 print(out)
+
+#list comprehension
+out=[num+1 if num>5 else num-1 for num in lst]
+print(out)
