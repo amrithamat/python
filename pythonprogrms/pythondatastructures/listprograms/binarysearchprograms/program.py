@@ -10,7 +10,7 @@ element=int(input("enter the element you want to search"))
 low=0
 upp=len(lst)-1
 flag=0
-while(low<upp):
+while(low<=upp):
     mid=(low+upp)//2
     #case1
     if(element>lst[mid]):
