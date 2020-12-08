@@ -4,8 +4,10 @@ passed=["a","b","c"]
 #convert to set and and find the no of failed
 
 st=set(names)
-print(st)
+print("names",st)
 st2=set(passed)
-print(st2)
-failed=(st.difference(st2))
-print (failed)
+print("passed",st2)
+print ("failed",st.difference(st2))
+#OR
+failed=st-st2
+print(failed)
